@@ -44,4 +44,99 @@ html{
 
 body{
     background: var(--color-light);
+    font-family: poppins, sans-serif;
+    min-height: 100vh;
+    color: var(--color-dark)
 }
+
+img{
+    width: 100%; 
+}
+
+h1{ 
+    font-size: 2.2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 1.2rem;
+}
+
+h4{
+    font-size: 1rem;
+}
+
+h5{
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+h6{
+    font-size: 7.6rem;
+}
+
+p{
+    font-size: 0.85rem;
+    color: var(--color-dark-gray);
+}
+
+small{
+    font-weight: 300;
+    font-size: 0.77rem;
+}
+
+.text-muted{
+    color: var(--color--light-gray);
+}
+
+.danger{
+    color: var(--color-danger);
+}
+
+.success{
+    color: var(--color-success);
+}
+
+.purple{
+    color: var(--color-purple);
+}
+
+.primary{
+    color: var(--color-primary);
+}
+----x-----
+
+.bg-danger{
+    background: var(--color-danger);
+    box-shadow: 0 0.8rem 0.8rem var(var(--color-danger-light));    
+
+}
+
+.bg-success{
+    background: var(--color-success);
+    box-shadow: 0 0.8rem 0.8rem var(var(--color-success-light));    
+
+}
+
+.bg-purple{
+    background: var(--color-purple);
+    box-shadow: 0 0.8rem 0.8rem var(var(--color-purple-light));    
+
+}
+
+.bg-primary{
+    background: var(--color-primary);
+    box-shadow: 0 0.8rem 0.8rem var(var(--color-primary-light));    
+}
+
+.bg-dark{
+    background: #27282f;
+    box-shadow: 0 0.8rem 0.8rem rgba(0, 0, 0, 0.2);
+}
+
+ /* NAVIGATION BAR */
+ 
+
