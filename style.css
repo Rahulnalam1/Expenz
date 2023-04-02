@@ -123,7 +123,7 @@ small{
 
 .bg-purple{
     background: var(--color-purple);
-    box-shadow: 0 0.8rem 0.8rem var(var(--color-purple-light));    
+    box-shadow: 0 0.8rem 0.8rem var(--color-purple-light);    
 
 }
 
@@ -139,4 +139,31 @@ small{
 
  /* NAVIGATION BAR */
  
+ nav {
+    width: 100%; 
+    background: var(--color-light);
+    padding: 1rem 0; 
+ }
+ nav .container{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 96%;
+    margin: 0 auto;
+    background: black;
 
+ }
+
+ /*back-testing this area */
+nav .profile-area{
+    background: red;
+}
+
+nav .profile{
+    background: green;
+}
+
+nav .menu-button{
+    background: blue;
+}
